@@ -1,7 +1,7 @@
 
 const User = require('./../../app/models/user')
 
-describe("Pruebas Twitter", () => {
+describe("Sprint 1: Pruebas Twitter", () => {
     test("Requirimiento 1: Creaccion de la clase",()=>{
 
         const German = new User(1, "GermanHv", "German","Hello",)
