@@ -1,5 +1,6 @@
 # Twitter
 
+## Sprint 1: Agregar modelos
 ```markdown 
 Después de evaluar tiempo y esfuerzos, el equipo de Launch X ha decidido crear la aplicación `Twitter`. Para ello han definido la primera etapa del sprint con los siguientes requerimientos a desarrollar:
 
