@@ -1,0 +1,19 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Práctica 3 semana 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GermanHv/Twitter.git"
+  },
+  "author": "GermanHv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GermanHv/Twitter/issues"
+  },
+  "homepage": "https://github.com/GermanHv/Twitter#readme"
+}
