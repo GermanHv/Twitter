@@ -13,9 +13,17 @@ describe("Pruebas Twitter", () => {
     })
 
     test("Requirimiento 2: Fechas en atributos de User",()=> {
-        const Carlo = new User(1, "carlogilmar","carlo", "Bio")
+        const Carlo = new User(2, "carlogilmar","carlo", "Bio")
         expect(Carlo.dateCreated).not.toBeUndefined()
         expect(Carlo.lastUpdated).not.toBeUndefined()
+    })
+
+    test("Requirimiento 3: anadiendo getters",()=> {
+        const Paola = new User(3, "Paola","Pau", "Bio")
+        expect(Paola.getUsername).toBe("Paola")
+        expect(Paola.getBio).toBe("Bio")
+        expect(Paola.getDateCreated).toBeDefined
+        expect(Paola.getLastUpdated).toBeDefined
     })
 
 
