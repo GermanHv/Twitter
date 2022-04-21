@@ -1,5 +1,6 @@
 # Twitter
 
+```markdown 
 Después de evaluar tiempo y esfuerzos, el equipo de Launch X ha decidido crear la aplicación `Twitter`. Para ello han definido la primera etapa del sprint con los siguientes requerimientos a desarrollar:
 
 SPRINT 1: Creación de un modelo
@@ -15,7 +16,7 @@ Solución: Crear una clase User y un constructor que guarde estos parámetros.
  
  Requerimiento 4: Cada objeto necesita los siguientes setters: `setUsername` y `setBio`, para actualizar dichas propiedades.
  Solución: Agrega los setters usando la palabra `set` y modificando el atributo indicado.
-
+```
 
 
 https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS/blob/main/semanas/semana_3/3_sprint_1_models.md
