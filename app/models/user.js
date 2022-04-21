@@ -8,6 +8,7 @@ class User {
     this.lastUpdated= new Date()
     }
 
+    // getters
     get getUsername(){// esto es una convencion en comun por POO, y da una mejor estructura en archivos y logica
         return this.username
     }
@@ -21,6 +22,16 @@ class User {
     get getLastUpdated(){
         return this.lastUpdated
     }
+
+    //setters
+    set setUsername(newUsername){
+        this.username = newUsername
+    }
+
+    set setBio(newBio){
+        this.bio = newBio
+    }
+
 }
 
 module.exports = User
