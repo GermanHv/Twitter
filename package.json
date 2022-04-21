@@ -4,7 +4,7 @@
   "description": "Práctica 3 semana 3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GermanHv/Twitter/issues"
   },
-  "homepage": "https://github.com/GermanHv/Twitter#readme"
+  "homepage": "https://github.com/GermanHv/Twitter#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
